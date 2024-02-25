@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Okhotsk Cycling Guide</title>
+  <link rel="icon" href="ロゴ画像.jpg">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link
+  rel="stylesheet"
+  <link href="https://use.fontawesome.com/releases/v6.5.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- ローディング画面 -->
+  <div id="loading1">
+    <p>北の大地を駆け抜ける</p>
+    <div id="loading-screen1"></div>
+  </div>
+
+  <!-- ヘッダー -->
+  <header class="container1">
+    <h1>
+      <div class="header-logo">
+        <a href="index.html">
+          <img src="ロゴ画像.jpg" width="60px" height="60px" alt="ロゴ画像">
+        </a>
+      </div>
+    </h1>
+
+    <!-- 新しい仕様 -->
+    <!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
+     <!-- ナビゲーションメニュー -->
+     <nav>
+      <button id="menu-open" class="btn-menu">
+          <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <title>メニューを開く</title>
+              <path clip-rule="evenodd" d="m4.25 8c0-.41421.33579-.75.75-.75h14c.4142 0 .75.33579.75.75s-.3358.75-.75.75h-14c-.41421 0-.75-.33579-.75-.75zm0 4c0-.4142.33579-.75.75-.75h14c.4142 0 .75.3358.75.75s-.3358.75-.75.75h-14c-.41421 0-.75-.3358-.75-.75zm.75 3.25c-.41421 0-.75.3358-.75.75s.33579.75.75.75h14c.4142 0 .75-.3358.75-.75s-.3358-.75-.75-.75z" fill-rule="evenodd"/>
+          </svg>
+      </button>
+      <div id="menu-panel">
+          <button id="menu-close" class="btn-menu">
+              <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                  <title>メニューを閉じる</title>
+                  <path clip-rule="evenodd" d="m7.53033 6.46967c-.29289-.29289-.76777-.29289-1.06066 0s-.29289.76777 0 1.06066l4.46963 4.46967-4.46963 4.4697c-.29289.2929-.29289.7677 0 1.0606s.76777.2929 1.06066 0l4.46967-4.4696 4.4697 4.4696c.2929.2929.7677.2929 1.0606 0s.2929-.7677 0-1.0606l-4.4696-4.4697 4.4696-4.46967c.2929-.29289.2929-.76777 0-1.06066s-.7677-.29289-1.0606 0l-4.4697 4.46963z" fill-rule="evenodd"/>
+              </svg>
+          </button>
+          <ul class="menu-list">
+            <li><a href="index.html"><i class="fa-solid fa-house"></i>ホーム</a></li>
+            <li><a href="#"><i class="fa-solid fa-newspaper"></i>NEWS</a></li>
+            <li><a href="1cyclingroute.html"><i class="fa-solid fa-road"></i>ルート</a></li>
+            <li><a href="2inquiry.html"><i class="fa-regular fa-envelope"></i>お問い合わせ</a></li>
+        </ul>
+      </div>
+  </nav>
+  </header>
+
+  <main>
+    <!-- キャッチ画像 -->
+    <section class="hero1">
+      <div class="container2">
+        <h2 id="heading">オホーツク　サイクリング　ガイド</h2>
+        <p id="heading">～世界の果てを旅する～</p>
+      </div>
+    </section>
+
+
+
+<!-- ニュースタイトル -->
+<section class="news">
+      <div class="inner">
+        <h2 id="sub_ttl">NEWS</h2>
+      </div>
+
+  <!-- ニュース一覧 -->
+ <ul class="news_list">
+
+  <!-- ニュース記事１ -->
+  <li class="news_list_item">
+    <a href="">
+      <div class="news_list_date">
+        <time>2024.02.04</time>
+        <p class="news_item">お知らせ</p>
+      </div>
+      <p class="news_content">サイトをリニューアルしました</p>
+      <!-- <span class="arrow"></span> -->
+    </a>
+  </li>
+
+  <!-- ニュース記事２ -->
+  <li class="news_list_item">
+    <a href="">
+      <div class="news_list_date">
+        <time>2024.02.03</time>
+        <p class="news_item">お知らせ</p>
+      </div>
+      <p class="news_content">新ルート<網走監獄ルート>をアップしました！！</p>
+      <!-- <span class="arrow"></span> -->
+    </a>
+  </li>
+ </ul>
+
+
+</section>
+
+
+    <!-- 内容 -->
+    <section class="features container2">
+      <section class="feature" >
+        <div class="pic">
+          <img src="オホーツク画像.png" width="250" height="170" alt="オホーツク画像" id="movepic">
+        </div>
+        <div class="desc">
+          <h3>オホーツクの紹介</h3>
+          <P>北海道北東部に位置し、管内の経済の中心を担う北見市や、流氷で有名な網走市・紋別市などを含むエリア。冬の寒さは厳しくも、おだやかな気候で日照時間に恵まれているのが特徴です。</P>
+        </div>
+      </section>
+
+      <section class="feature reversed">
+          <div class="pic">
+            <a href="1cyclingroute.html">
+              <img src="地図男.png" width="174" height="200" alt="著者近影">
+            </a>
+          </div>
+          <div class="desc">
+            <a href="1cyclingroute.html">
+              <h3>サイクリングルート</h3>
+              <p>このサイトでは、オホーツク地方の知られざる魅力を発信しています。登場するサイクリングルートは、海岸線や湖沼、山々や森林など、自然の景観が豊かで、季節によっても様々な表情を見せてくれます。
+              <br>
+              <br>オホーツクの大地を縦横無尽に駆け抜けましょう！！
+              </p>
+            </a>
+          </div>
+      </section>
+
+      <section class="button>
+        <div>
+            <form>
+              <button type="button" id="button" onmouseover="move()" onmouseout="move()" onclick="location.href='1cyclingroute.html'">
+                CHECK　➡
+              </button>
+            </form>
+        </div>
+      </section>
+      
+    </section>
+
+  </main>
+
+<!-- フッター -->
+  <footer>
+    <div class="small">
+      <small>Copyright©網走サイクリングガイド All Rights Reserved.</small>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Okhotsk Cycling Guide</title>
+  <link rel="icon" href="ロゴ画像.jpg">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link
+  rel="stylesheet"
+  <link href="https://use.fontawesome.com/releases/v6.5.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- ローディング画面 -->
+  <div id="loading">
+    <p>Loading...</p>
+    <div id="loading-screen"></div>
+  </div>
+
+  <!-- ヘッダー -->
+  <header class="container1">
+    <h1>
+      <div class="header-logo">
+        <a href="index.html">
+          <img src="ロゴ画像.jpg" width="60px" height="60px" alt="ロゴ画像">
+        </a>
+      </div>
+    </h1>
+
+
+     <!-- ナビゲーションメニュー -->
+     <nav>
+      <button id="menu-open" class="btn-menu">
+          <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <title>メニューを開く</title>
+              <path clip-rule="evenodd" d="m4.25 8c0-.41421.33579-.75.75-.75h14c.4142 0 .75.33579.75.75s-.3358.75-.75.75h-14c-.41421 0-.75-.33579-.75-.75zm0 4c0-.4142.33579-.75.75-.75h14c.4142 0 .75.3358.75.75s-.3358.75-.75.75h-14c-.41421 0-.75-.3358-.75-.75zm.75 3.25c-.41421 0-.75.3358-.75.75s.33579.75.75.75h14c.4142 0 .75-.3358.75-.75s-.3358-.75-.75-.75z" fill-rule="evenodd"/>
+          </svg>
+      </button>
+      <div id="menu-panel">
+          <button id="menu-close" class="btn-menu">
+              <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                  <title>メニューを閉じる</title>
+                  <path clip-rule="evenodd" d="m7.53033 6.46967c-.29289-.29289-.76777-.29289-1.06066 0s-.29289.76777 0 1.06066l4.46963 4.46967-4.46963 4.4697c-.29289.2929-.29289.7677 0 1.0606s.76777.2929 1.06066 0l4.46967-4.4696 4.4697 4.4696c.2929.2929.7677.2929 1.0606 0s.2929-.7677 0-1.0606l-4.4696-4.4697 4.4696-4.46967c.2929-.29289.2929-.76777 0-1.06066s-.7677-.29289-1.0606 0l-4.4697 4.46963z" fill-rule="evenodd"/>
+              </svg>
+          </button>
+          <ul class="menu-list">
+            <li><a href="index.html"><i class="fa-solid fa-house"></i>ホーム</a></li>
+            <li><a href="#"><i class="fa-solid fa-newspaper"></i>NEWS</a></li>
+            <li><a href="1cyclingroute.html"><i class="fa-solid fa-road"></i>ルート</a></li>
+            <li><a href="2inquiry.html"><i class="fa-regular fa-envelope"></i>お問い合わせ</a></li>
+        </ul>
+      </div>
+  </nav>
+  </header>
+
+
+  <main>
+    <section class="hero2">
+      <div class="container2">
+        <h2>サイクリングルート</h2>
+      </div>
+    </section>
+
+    <section class="hpindex">
+      <p><a href="index.html">HOME</a> > サイクリングルート </p>
+    </section>
+
+
+    <!-- ページ内リンク -->
+    <section class="route-menu">
+      <h2>　▼目次</h2>
+      <nav>
+        <ul class="content">
+          <li><a href="#bihororoute" id="content_p">　１．美幌峠ルート</a></li>
+          <li><a href="#notororoute">　２．能取灯台ルート</a></li>
+          <li><a href="#kosimizuroute">　３．浜小清水ルート</a></li>
+          <li><a href="#kangokuroute">　４．網走監獄ルート</a></li>
+        </ul>
+      </nav>
+    </section>
+
+<section class="routes">
+  <h2>ルートの概要</h2>
+
+  <section id="bihororoute" class="route-intro">
+    <a href="1-1route.html">
+    <img src="美幌峠２.jpg" width="380" height="280" id="routed">
+    <h3>１．美幌峠ルート</h3>
+    <p>総距離:148km　獲得標高:1.511m</p>
+    </a>
+  </section>
+
+  <section id="notororoute" class="route-intro">
+    <a href="1-2route.html">
+    <img  src="灯台1.jpg"width="400" height="300" id="routed">
+    <h3>２．能取灯台ルート</h3>
+    <p>総距離:33km　獲得標高:323m</p>
+    </a>
+  </section>
+
+  <section id="kosimizuroute" class="route-intro">
+    <a href="1-3route.html">
+    <img  src="芝桜２.jpg" width="400" height="300" id="routed">
+    <h3>３．浜小清水ルート</h3>
+    <p>総距離:74.5km　獲得標高:597m</p>
+    </a>
+  </section>
+
+  <section id="kangokuroute" class="route-intro">
+    <a href="1-4route.html">
+    <img  src="網走監獄1.jpg" width="400" height="300" id="routed">
+    <h3>４．網走監獄ルート</h3>
+    <p>総距離:13.7km　獲得標高:201m</p>
+    </a>
+  </section>
+</section>
+
+</main>
+
+
+  <footer>
+    <div class="small">
+      <small>Copyright©網走サイクリングガイド All Rights Reserved.</small>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
